@@ -1,0 +1,46 @@
+.hide {
+	display: none;
+}
+
+#scores {
+    color: rgb(159, 81, 193);
+    font-size: large;
+    font-weight: 100;
+    display: inline-block;
+}
+
+#time {
+    float: right;
+}
+
+.start-page {
+	display:flex;
+	justify-content: center;
+}
+
+.container {
+    display:flex;
+	justify-content: center;
+}
+
+.options {
+	display:none;
+}
+
+
+.btn-list {
+    display:flex;
+	flex-direction:column;
+}
+
+.btn {
+	background-color:#36063e;
+	border:1px solid #93529f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 24px;
+    margin:3px;
+}

@@ -37,7 +37,6 @@ var questions = [
 
     // timer 
     document.addEventListener('DOMContentLoaded', () => {
-        //variable
         var timeLeftDisplay = document.getElementById("seconds")
         var startBtn = document.getElementById("start-btn")
         
@@ -64,7 +63,7 @@ var questions = [
             document.getElementById("quiz").removeAttribute("class")
         }
     
-        //question 1
+        // question 1
         function start (){
             document.getElementById("question").innerHTML = questions[0].question1
     
@@ -84,7 +83,7 @@ var questions = [
         }
         start()
         
-        //question 2
+        // question 2
         function second (){
             document.getElementById("question").innerHTML = questions[1].question2
     
@@ -103,7 +102,7 @@ var questions = [
     
         }
         
-        //question 3
+        // question 3
         function third () {
             document.getElementById("question").innerHTML = questions[2].question3
     
@@ -116,7 +115,7 @@ var questions = [
     
         }
     
-        //question 4
+        // question 4
         function fourth () {
             document.getElementById("question").innerHTML = questions[3].question4
     
